@@ -1,7 +1,3 @@
-<?php //code received from lecture
-error_reporting(E_ALL);
-ini_set('display_errors','On');
-?>
 <!DOCTYPE html>
 <html>
   <head>
