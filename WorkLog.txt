@@ -10,3 +10,22 @@ Start: Sun, 3 May 2015 14:52:53 -0700
 End: Sun, 3 May 2015 15:31:53 -0700
 Tasks: During this time I added check functions to multtable.php and removed the html form previously created due to reading additional clarification on the receipt of information on the class forum.
 
+Start: Sun, 3 May 2015 15:31:53 -0700
+End: Sun, 3 May 2015 15:54:53 -0700
+Tasks: During this time I debugged the check functions in multtable.php
+
+Start: Sun, 3 May 2015 16:45:10 -0700
+End: Sun, 3 May 2015 17:40:10 -0700
+Tasks: During this time I coded the table in multtable.php and debugged it.
+
+Start: Sun, 3 May 2015 17:40:10 -0700
+End: Sun, 3 May 2015 18:37:05 -0700
+Tasks: During this time I completed and debugged the file loopback.php
+
+Start: Sun, 3 May 2015 19:55:49 -0700
+End: Sun, 3 May 2015 20:07:49 -0700
+Tasks: During this time I made my initial attempt at login.php file.  It is not yet tested.
+
+Start: Sun, 3 May 2015 20:35:17 -0700
+End: Sun, 3 May 2015 22:26:17 -0700
+Tasks: During this time I completed and debugged the files content1.php, content2.php, login.php so that they all work as expected in Chrome. I also committed final versions of assignment4 part 1 files.
