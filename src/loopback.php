@@ -1,12 +1,8 @@
-<?php //code received from lecture
-error_reporting(E_ALL);
-ini_set('display_errors','On');
-?>
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>CS290 Assignment 4 part 1</title>
+    <title>CS290 Assignment 4.1: Loopback<\title>
   </head>
   <body>
   <?php

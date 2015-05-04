@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>CS290 Assignment 4 part 1</title>
+    <title>CS290 Assignment 4.1:Multtable</title>
   </head>
   <body>
     <?php

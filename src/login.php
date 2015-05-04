@@ -9,8 +9,8 @@ ini_set('display_errors','On');
     <title>CS290 Assignment 4.1: Login</title>
   </head>
   <body>
-    <?php
-      if(isset($_GET['action'] && $_GET['action']=='end')) {
+    <?php //used information on GET action from lecture
+      if(isset($_GET['action']) && $_GET['action']=='end') {
         echo 'You are now logged out.<br>Use below to login again<br><br>';
       }
     ?>
@@ -19,5 +19,5 @@ ini_set('display_errors','On');
       <input type="text" name="username">
       <input type="submit" value="Login">
     </form>
-  </body.
+  </body>
 </html>
