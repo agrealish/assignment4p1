@@ -20,6 +20,9 @@ ini_set('display_errors','On');
       if(!$eCheck) { //if params exist and are integers, check min<=max
         checkMinMax($eCheck);
       }
+      if(!$eCheck) { //if no errors reported, create the table
+        createTable();
+      }
       
       function checkExist(&$eCheck) {
         if($_GET['min-multiplicand'] === "") { //if min-multiplicand doesn't exist, print error message
@@ -70,6 +73,33 @@ ini_set('display_errors','On');
           $eCheck=true; //an error occurred, so set eCheck to true
           echo "<p>Minimum multiplier larger than maximum.";
         }
+      }
+      
+      function createTable() { //some of the formatting for the table comes from Variables and Arrays in PHP lecture
+      //other parts of the formatting of the table comes from assignment2
+        $i = (int)$_GET['min-multiplier'];
+        $iend = (int)$_GET['max-multiplier'];
+        $j = (int)$_GET['min-multiplicand'];
+        $jend = (int)$_GET['max-multiplicand'];
+        echo "<p><h3>Multiplication Table</h3>
+        <p>
+        <table border=1>
+        <tbody>
+        <tr>
+        <td width = 25>";
+        for ($i; $i <= $iend; $i++) {
+          echo "
+          <td width = 25>" . $i;
+        } //for loop prints integers from min-multiplier to max-multiplier on top row of table
+        for ($j; $j <= $jend; $j++) {
+          echo "<tr> 
+          <td>" . $j;
+          for ($k = (int)$_GET['min-multiplier']; $k <= $iend; $k++) {
+            echo "
+            <td>" . $j * $k;
+          }
+        }
+        echo "</tbody></table>";
       }
 ?>
   </body>
